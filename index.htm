@@ -46,6 +46,7 @@ window.onload=function(){
 				style=document.createElement("style"),
 				script=document.createElement("script");
 			document.body.innerHTML=html.textContent;
+			console.log(html.textContent);
 			style.innerHTML=css.textContent.replace(/\s/g,"");
 			script.innerHTML=js.textContent;
 			document.body.appendChild(style);
